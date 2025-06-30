@@ -1,0 +1,41 @@
+# Virtual environment
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Logs
+*.log
+
+# Test files
+test_*
+*_test.py
+
+# Environment files (will be set via Cloud Run)
+.env
+.env.local
+
+# Build artifacts
+build/
+dist/
+*.egg-info/ 
